@@ -1,5 +1,32 @@
+<!DOCTYPE html>
+<!--HTML 5标准的文档定义-->
 <html>
-<body>
-hello world
-</body>
+ 
+    <head>
+        <title>DIV用法</title> 
+        
+        <meta http-equiv="Content-Type"
+              content="text/html; charset=utf-8">
+       <style>
+		#logo{ font-size:60px;}
+	</style>        
+    </head>
+   
+   
+
+   <body>  
+          <!--div用于在页面上划分区块的！div只是用于划分区域，不是用于显示区域
+                   内容请使用 p h1等元素处理-->
+        <div id="logo">图标区</div>
+        <div id="nav">导航菜单区域</div>
+        <div id="content">内容区域</div>
+           
+              <!--如下不是好的做法！-->
+           <p>图标区域<br>
+               导航菜单区域<br>
+               内容区域 
+           </p>
+   </body>
+
 </html>
+
